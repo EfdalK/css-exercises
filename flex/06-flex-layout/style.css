@@ -3,6 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -25,3 +26,57 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* ---------------------------- */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(192, 192, 192);
+  margin-top: auto;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .buttons button {
+  padding: 10px;
+}
+
+.header ul, 
+.footer ul {
+  display: flex;
+  margin:  10px 5px;
+
+}
+
+.header ul a,
+.footer ul a {
+  padding: 0 20px;
+}
+
